@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <style>
+
+    .red-square {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-color: red;
+      border-style: solid black 10px;
+      margin-right: 25px;
+    }
+    .green-circle {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      background-color: green;
+      border: none;
+      border-radius: 200px;
+    }
+    .review {
+      display: block;
+      width: 320px;
+      height: 90px;
+      border: solid grey 1px;
+      padding-left: 15px;
+      margin-top: 15px;
+    }
+    .install {
+      border: none;
+      background-color: rgb(39, 36, 36);
+      display: block;
+      width: 340px;
+      height: 100px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .youtube {
+      color: white;
+      font-style: bold;
+      font-size: 25px;
+      margin-bottom: 1px;
+      padding-top: 10px;
+    }
+    .description {
+      margin-top: 5px;
+      color: grey;
+      width: 350px;
+
+    }
+    .cats {
+      width: 300px;
+      height: 40px;
+      display: block;
+      margin-top: 20px;
+      box-shadow: 2px 2px 2px 1px grey;
+      padding-top: 5px;
+      padding-left: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .cat4 {
+      object-fit: cover;
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+      border-radius: 20px;
+
+    }
+    .what {
+      border: none;
+    }
+    .tweet {
+      border: none;
+      background-color: rgb(31, 135, 255);
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: white;
+      border-radius: 15px;
+    }
+    .oliver {
+      display: block;
+      width: 120px;
+      height: 213px;
+      box-shadow: 1px 1px 3px 1px rgb(189, 187, 187);
+      margin-left: 30px;
+    }
+    .cat6 {
+      width: 120px;
+      height: 140px;
+      object-fit: cover;
+    }
+    .name {
+      font-weight: bold;
+      padding-left: 5px;
+      margin-top: 5px;
+      font-size: 15px;
+      margin-bottom: 1px;
+    }
+    .mutual {
+      font-size: 9px;
+      padding-left: 5px;
+      margin-top: 2px;
+      color: grey;
+      margin-bottom: 1px;
+    }
+    .add {
+      margin-top: 5px;
+      margin-left: 5px;
+      background-color: rgb(52, 116, 255);
+      color: white;
+      border: none;
+      font-size: 12px;
+      padding-top: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-bottom: 5px;
+      border-radius: 3px;
+    }
+
+
+
+
+
+    /* excerciss */
+    .container2 {
+      display: block;
+      width: 600px;
+      margin-top: 40px;
+    }
+    .oliver2 {
+      display: inline-block;
+      width: 120px;
+      height: 213px;
+      box-shadow: 1px 1px 3px 1px rgb(189, 187, 187);
+      margin-left: 30px;
+    }
+    .cat7 {
+      width: 120px;
+      height: 140px;
+      object-fit: cover;
+    }
+    .name2 {
+      font-weight: bold;
+      padding-left: 5px;
+      margin-top: 5px;
+      font-size: 15px;
+      margin-bottom: 1px;
+    }
+    .mutual2 {
+      font-size: 9px;
+      padding-left: 5px;
+      margin-top: 2px;
+      color: grey;
+      margin-bottom: 1px;
+    }
+    .add2 {
+      margin-top: 5px;
+      margin-left: 5px;
+      background-color: rgb(52, 116, 255);
+      color: white;
+      border: none;
+      font-size: 12px;
+      padding-top: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-bottom: 5px;
+      border-radius: 3px;
+    }
+    .mimi {
+      display: inline-block;
+      box-shadow: 1px 1px 3px 1px rgb(189, 187, 187);
+      margin-left: 10px; 
+      width: 120px;
+      height: 213px;
+    }
+    .cat8 {
+      display: inline-block;
+      width: 120px;
+      height: 140px;
+      padding-bottom: 1px;
+      margin-bottom: 1px;
+      object-fit: cover;
+
+    }
+    .name3 {
+
+      font-weight: bold;
+      padding-top: 1px;
+      margin-top: 1px;
+      margin-bottom: 1px;
+      padding-bottom: 1px;
+      margin-left: 5px;
+    }
+    .mutual3 {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    }
+    .add3 {
+      font-size: 12px;
+      margin-bottom: 8px;
+      background-color: rgb(24, 132, 255);
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 2px;
+      border: none;
+      margin-left: 5px;
+    }
+    .rex {
+      display: inline-block;
+      box-shadow: 1px 1px 3px 1px rgb(189, 187, 187);
+      margin-left: 10px; 
+      width: 120px;
+      height: 213px;
+    }
+    .cat9 {
+      display: inline-block;
+      width: 120px;
+      height: 140px;
+      padding-bottom: 1px;
+      margin-bottom: 1px;
+      object-fit: cover;
+
+    }
+    .name4 {
+
+      font-weight: bold;
+      padding-top: 1px;
+      margin-top: 1px;
+      margin-bottom: 1px;
+      padding-bottom: 1px;
+      margin-left: 5px;
+    }
+    .mutual4 {
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    }
+    .add4 {
+      font-size: 12px;
+      margin-bottom: 8px;
+      background-color: rgb(24, 132, 255);
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 2px;
+      border: none;
+      margin-left: 5px;
+    }
+  </style>
+  <head></head>
+  <body>
+    <div class="red-square">
+      <p></p>
+    </div>
+
+    <div class="green-circle">
+      <p></p>
+    </div>
+
+    <div class="review">
+      <p class="question">Satisfied with our service?</p>
+      <button class="yes">Yes</button>
+      <button class="no">No</button>
+    </div>
+
+    <div class="install">
+      <p class="youtube">Install Youtube Music</p>
+      <p class="description">Add Youtube Music to your dekstop for quick and easy access</p>
+    </div>
+
+    <div class="cats">
+     <img class="cat4" src="cat.jpg">
+     <input class="what" type="text" placeholder="What's happening?">
+     <button class="tweet">Tweet</button>
+    </div>
+    <div class="oliver">
+      <img class="cat6" src="cat.jpg">
+      <p class="name">Oliver</p>
+      <P class="mutual">22 mutual friends</P>
+      <button class="add">Add Friend</button>
+    </div>
+    <div class="container2">
+        <div class="oliver2">
+        <img class="cat7" src="cat.jpg">
+        <p class="name2">Oliver</p>
+        <P class="mutual2">22 mutual friends</P>
+        <button class="add2">Add Friend</button>
+        </div>
+        <div class="mimi" >
+        <img class="cat8" src="cat03.jpg">
+        <p class="name3">Mimi</p>
+        <p class="mutual3">3 mutual friends</p>
+        <button class="add3">Add friends</button>
+        </div>
+   
+      <div class="rex" >
+        <img class="cat9" src="cat04.jpg">
+        <p class="name4">Rex</p>
+        <p class="mutual4">4 mutual friends</p>
+        <button class="add4">Add friends</button>
+        </div>
+     </div>
+  </body>
+</html>

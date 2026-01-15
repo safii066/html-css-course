@@ -1,12 +1,4 @@
-<html>
-  <head>
-
-  </head>
-  <body>
-    <style>
-  
-
-  .Requestnow-button{
+.Requestnow-button{
   background-color: black;
   color: white;
   border-style: none;
@@ -181,49 +173,3 @@
   .tweet-button:hover{
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15 );
   }
-
-</style>
-
-<button class="Requestnow-button">
-  Request Now
-</button>
-
-<button class="addtocart-button">
-  Add To Cart
-</button>
-
-<button class="signup-button">
-  Sign up
-</button>
-
-<button class="getstarted-button">
-  Get started
-</button>
-
-<button class="download-button">
-  Download
-</button>
-
-<button class="applyoncompanywebsite-button">
-  Apply on company website
-</button>
-
-<button class="save-button">
-  Save
-</button>
-
-<button class="subscribe-button">
-  SUBSCRIBE
-</button>
-
-<button class="join-button">
-  JOIN
-</button>
-
-<button class="tweet-button">
-  Tweet
-</button>
-
-
-    </body>
-</html>
